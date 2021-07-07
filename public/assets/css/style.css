@@ -1,0 +1,22 @@
+a{
+	text-decoration: none;
+}
+
+.square_action{
+	width: 200px;
+	height: 200px;
+	background-color:#ca0000;;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.square_action:hover{
+	background-color: red;
+}
+.square_action i:before{
+	color: white;
+	font-size: 40px;
+}
+.square_action span{
+	color: white;
+	font-size: 40px;
+}

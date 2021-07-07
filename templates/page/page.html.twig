@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Páginas{% endblock %}
+
+{% block body %}
+
+<div class="container">
+	<ul>
+		{% for page in pages ?? [] %}
+			<li>{{page.name}}</li>
+		{% endfor %}
+	</ul>
+</div>
+
+
+
+
+{% endblock %}
